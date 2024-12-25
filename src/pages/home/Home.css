@@ -1,0 +1,56 @@
+.home-pizza {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.pizza-card {
+    width: 300px;
+    border: 1px solid black;
+}
+.pizza-card-img {
+    width: 100%;
+    text-align: center;
+}
+.pizza-card-img h4 {
+    padding: 10px 0;
+}
+.pizza-card-text {
+    background-color: #f3f3f3;
+}
+.pizza-card-text div {
+    gap: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    p {
+     background-color: white;
+     padding: 8px 10px;   
+     width: 100%;
+     text-align: center;
+     border-radius: 6px;
+    }
+}
+.pizza-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pizza-card-footer h4  {}
+.pizza-card-footer button {
+    border: 1px solid #fe5f1e;
+    padding: 10px 20px;
+    color: #fe5f1e;
+    border-radius: 30px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    transition: background ease 0.4s;
+    cursor: pointer;
+    &:hover {
+        background-color: #fe5f1e;
+        border-color: transparent;
+        color: white;
+    }
+}
